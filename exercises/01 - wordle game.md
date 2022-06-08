@@ -29,6 +29,10 @@ The `Game` class represents the current state of the game, without the UI.
 * Should tell you if the player has won or not
 * `reset()` method should reset the game to its initial state
 * `addGuess(guess:string)` method should add a new guess (if it is possible according to the rules and if the guess contains exactly 5 digits)
+* The game should hold a list of all legal words 
+  * You can find a file containing all the words [here](resources/words.ts)
+  * The random word should be drawn from this list
+  * Only legal words are accepted as guesses
 
 ### Step 4 - Create a `View` class
 The `View` class is responsible representing the screen UI elements
