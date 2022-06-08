@@ -43,7 +43,8 @@ The `View` class is responsible representing the screen UI elements
     * disables the input and the button
 
 ### Step 5 - Connect the classes
-* Create an instance of `Game` and an instance of `Controller`
+* Create an instance of `Game` and an instance of `View`
+* Render the initial view
 * When the OK button is clicked
   * enter a new guess to the game
   * invalidate the view
